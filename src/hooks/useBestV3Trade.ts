@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, TradeType } from '@uniswap/sdk-core'
-import { encodeRouteToPath, Route, Trade } from '@uniswap/v3-sdk'
+import { Currency, CurrencyAmount, TradeType } from 'dharma-sdk-core'
+import { encodeRouteToPath, Route, Trade } from 'dharma-v3-sdk'
 import { SupportedChainId } from 'constants/chains'
 import { BigNumber } from 'ethers'
 import { useMemo } from 'react'
