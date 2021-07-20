@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, Token } from '@uniswap/sdk-core'
+import { Currency, Token } from 'dharma-sdk-core'
 import { arrayify } from 'ethers/lib/utils'
 import { useMemo } from 'react'
 import { createTokenFilterFunction } from '../components/SearchModal/filtering'
@@ -130,8 +130,11 @@ export function useToken(tokenAddress?: string): Token | undefined | null {
   const tokens = useAllTokens()
 
   const address = isAddress(tokenAddress)
-
   const tokenContract = useTokenContract(address ? address : undefined, false)
+
+  console.log(`Getting token ${tokenAddress} on chain ${chainId} `)
+  console.dir(tokenContract)
+
   const tokenContractBytes32 = useBytes32TokenContract(address ? address : undefined, false)
   const token: Token | undefined = address ? tokens[address] : undefined
 
@@ -147,6 +150,7 @@ export function useToken(tokenAddress?: string): Token | undefined | null {
   const decimals = useSingleCallResult(token ? undefined : tokenContract, 'decimals', undefined, NEVER_RELOAD)
 
   return useMemo(() => {
+    
     if (token) return token
     if (!chainId || !address) return undefined
     if (decimals.loading || symbol.loading || tokenName.loading) return null
@@ -177,7 +181,7 @@ export function useToken(tokenAddress?: string): Token | undefined | null {
 
 export function useCurrency(currencyId: string | undefined): Currency | null | undefined {
   const { chainId } = useActiveWeb3React()
-  const isETH = currencyId?.toUpperCase() === 'ETH'
+  const isETH = currencyId?.toUpperCase() === 'BNB'
   const token = useToken(isETH ? undefined : currencyId)
   const extendedEther = useMemo(() => (chainId ? ExtendedEther.onChain(chainId) : undefined), [chainId])
   const weth = chainId ? WETH9_EXTENDED[chainId] : undefined
