@@ -3,11 +3,11 @@ import { abi as GOVERNANCE_ABI } from '@uniswap/governance/build/GovernorAlpha.j
 import { abi as UNI_ABI } from '@uniswap/governance/build/Uni.json'
 import { abi as STAKING_REWARDS_ABI } from '@uniswap/liquidity-staker/build/StakingRewards.json'
 import { abi as MERKLE_DISTRIBUTOR_ABI } from '@uniswap/merkle-distributor/build/MerkleDistributor.json'
-import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json'
-import { abi as QuoterABI } from '@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'
-import { abi as V2MigratorABI } from '@uniswap/v3-periphery/artifacts/contracts/V3Migrator.sol/V3Migrator.json'
-import { abi as IUniswapV2Router02ABI } from '@uniswap/v2-periphery/build/IUniswapV2Router02.json'
-import { abi as MulticallABI } from '@uniswap/v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
+import { abi as IUniswapV2PairABI } from 'dharma-v2-core/build/IUniswapV2Pair.json'
+import { abi as QuoterABI } from 'dharma-v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'
+import { abi as V2MigratorABI } from 'dharma-v3-periphery/artifacts/contracts/V3Migrator.sol/V3Migrator.json'
+import { abi as IUniswapV2Router02ABI } from 'dharma-v2-periphery/build/IUniswapV2Router02.json'
+import { abi as MulticallABI } from 'dharma-v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
 
 import ARGENT_WALLET_DETECTOR_ABI from 'abis/argent-wallet-detector.json'
 import ENS_PUBLIC_RESOLVER_ABI from 'abis/ens-public-resolver.json'
@@ -29,9 +29,12 @@ import {
   GOVERNANCE_ALPHA_V0_ADDRESSES,
   GOVERNANCE_ALPHA_V1_ADDRESSES,
 } from 'constants/addresses'
-import { abi as NFTPositionManagerABI } from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
+import { abi as NFTPositionManagerABI } from 'dharma-v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 import { useMemo } from 'react'
-import { Quoter, NonfungiblePositionManager, UniswapInterfaceMulticall } from 'types/v3'
+import {  NonfungiblePositionManager } from 'types/v3/NonfungiblePositionManager'
+import {  UniswapInterfaceMulticall } from 'types/v3/UniswapInterfaceMulticall'
+import { Quoter } from 'types/v3/Quoter'
+
 import { V3Migrator } from 'types/v3/V3Migrator'
 import { getContract } from 'utils'
 import { Erc20, ArgentWalletDetector, EnsPublicResolver, EnsRegistrar, Weth } from '../abis/types'
@@ -66,11 +69,13 @@ export function useV2MigratorContract() {
 }
 
 export function useTokenContract(tokenAddress?: string, withSignerIfPossible?: boolean) {
+  console.log(`Use token ${tokenAddress}`)
   return useContract<Erc20>(tokenAddress, ERC20_ABI, withSignerIfPossible)
 }
 
 export function useWETHContract(withSignerIfPossible?: boolean) {
   const { chainId } = useActiveWeb3React()
+  console.log(`Using WETH ${chainId ? WETH9_EXTENDED[chainId]?.address : undefined}`)
   return useContract<Weth>(chainId ? WETH9_EXTENDED[chainId]?.address : undefined, WETH_ABI, withSignerIfPossible)
 }
 
@@ -95,10 +100,12 @@ export function useEIP2612Contract(tokenAddress?: string): Contract | null {
 }
 
 export function usePairContract(pairAddress?: string, withSignerIfPossible?: boolean): Contract | null {
+  console.log(`Use pairContract ${pairAddress}`)
   return useContract(pairAddress, IUniswapV2PairABI, withSignerIfPossible)
 }
 
 export function useV2RouterContract(): Contract | null {
+  console.log({V2_ROUTER_ADDRESS})
   return useContract(V2_ROUTER_ADDRESS, IUniswapV2Router02ABI, true)
 }
 
