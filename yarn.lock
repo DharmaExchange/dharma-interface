@@ -8508,10 +8508,10 @@ dharma-v3-periphery@0.0.1:
     hardhat-deploy "^0.8.11"
     hardhat-watcher "^2.1.1"
 
-dharma-v3-sdk@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/dharma-v3-sdk/-/dharma-v3-sdk-0.0.1.tgz#28ba3ff9dbec3f5653ecf87e93c70d64a069240e"
-  integrity sha512-g6uw2pq5hiHaPf52jzjboMmCsEhc0WV7/dqNWd2m78T3kzB1wNg+MoVjtbjKjMzImiTkmsWw6X6H3vmEEXkakQ==
+dharma-v3-sdk@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/dharma-v3-sdk/-/dharma-v3-sdk-0.0.2.tgz#a4c5945cb996bb3850122421fdadd93839b06943"
+  integrity sha512-X4iFzd/AQkOa9HYNhYx/hgnj/LHRyto7CVT163Sn2F4xRbMtI+0ZAADYP5vYnwzfrLiWv68siIOl4hV/gQ4QTQ==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
