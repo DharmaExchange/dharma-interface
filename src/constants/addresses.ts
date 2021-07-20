@@ -17,9 +17,12 @@ export const MULTICALL_ADDRESS: AddressMap = {
   [SupportedChainId.ARBITRUM_RINKEBY]: '0xa501c031958F579dB7676fF1CE78AD305794d579',*/
   [SupportedChainId.BSC]: '0xffBe6a2253e03a83D1ddE16e4F5f2F58184AbabB',
 }
-export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
-export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D')
-
+export const V2_FACTORY_ADDRESSES: AddressMap = {
+  [SupportedChainId.BSC]: V2_FACTORY_ADDRESS,
+}
+export const V2_ROUTER_ADDRESS: AddressMap = {
+  [SupportedChainId.BSC]: '0xE592427A0AEce92De3Edee1F18E0157C05861564',
+}
 /**
  * The older V0 governance account
  */
