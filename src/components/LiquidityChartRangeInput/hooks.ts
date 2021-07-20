@@ -1,6 +1,6 @@
 import { useCallback, useMemo } from 'react'
-import { Currency } from '@uniswap/sdk-core'
-import { FeeAmount } from '@uniswap/v3-sdk'
+import { Currency } from 'dharma-sdk-core'
+import { FeeAmount } from 'dharma-v3-sdk'
 import { usePoolActiveLiquidity } from 'hooks/usePoolTickData'
 import { ChartEntry } from './types'
 import JSBI from 'jsbi'

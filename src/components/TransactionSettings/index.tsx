@@ -1,6 +1,6 @@
 import { t, Trans } from '@lingui/macro'
 import { useState, useContext } from 'react'
-import { Percent } from '@uniswap/sdk-core'
+import { Percent } from 'dharma-sdk-core'
 import styled, { ThemeContext } from 'styled-components/macro'
 
 import QuestionHelper from '../QuestionHelper'

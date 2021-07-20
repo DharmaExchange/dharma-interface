@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk-core'
+import { Token } from 'dharma-sdk-core'
 import Modal from '../Modal'
 import { ImportToken } from 'components/SearchModal/ImportToken'
 

@@ -4,7 +4,7 @@ import { AutoRow } from 'components/Row'
 import { TYPE } from 'theme'
 import styled from 'styled-components/macro'
 import { Trans } from '@lingui/macro'
-import { FeeAmount } from '@uniswap/v3-sdk'
+import { FeeAmount } from 'dharma-v3-sdk'
 import ReactGA from 'react-ga'
 
 const Button = styled(ButtonOutlined).attrs(() => ({

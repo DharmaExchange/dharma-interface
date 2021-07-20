@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
 import { Text } from 'rebass'
-import { Currency } from '@uniswap/sdk-core'
+import { Currency } from 'dharma-sdk-core'
 import styled from 'styled-components/macro'
 
 import { COMMON_BASES } from '../../constants/routing'

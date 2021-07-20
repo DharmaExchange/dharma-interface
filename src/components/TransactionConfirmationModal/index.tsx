@@ -1,4 +1,4 @@
-import { Currency } from '@uniswap/sdk-core'
+import { Currency } from 'dharma-sdk-core'
 import { ReactNode, useContext, useEffect } from 'react'
 import styled, { ThemeContext } from 'styled-components/macro'
 import { getExplorerLink, ExplorerDataType } from '../../utils/getExplorerLink'

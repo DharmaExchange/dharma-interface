@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { CurrencyAmount, Token } from '@uniswap/sdk-core'
+import { CurrencyAmount, Token } from 'dharma-sdk-core'
 import { useCallback, useEffect } from 'react'
 import ReactGA from 'react-ga'
 import { Heart, X } from 'react-feather'
