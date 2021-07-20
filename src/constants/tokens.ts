@@ -61,7 +61,7 @@ export const WETH9_EXTENDED: { [chainId: number]: Token } = {
     SupportedChainId.BSC,
     '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
     18,
-    'WETH',
+    'WBNB',
     'Wrapped BNB'
   ),  
 }
