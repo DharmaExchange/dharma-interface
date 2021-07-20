@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/interface",
-  "description": "Uniswap Interface",
+  "name": "dharma-interface",
+  "description": "Dharma Interface",
   "homepage": ".",
   "private": true,
   "devDependencies": {
