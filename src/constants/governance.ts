@@ -7,11 +7,11 @@ import {
 import { SupportedChainId } from './chains'
 
 export const COMMON_CONTRACT_NAMES: Record<number, { [address: string]: string }> = {
-  [SupportedChainId.MAINNET]: {
-    [UNI_ADDRESS[SupportedChainId.MAINNET]]: 'UNI',
-    [TIMELOCK_ADDRESS[SupportedChainId.MAINNET]]: 'Timelock',
-    [GOVERNANCE_ALPHA_V0_ADDRESSES[SupportedChainId.MAINNET]]: 'Governance (V0)',
-    [GOVERNANCE_ALPHA_V1_ADDRESSES[SupportedChainId.MAINNET]]: 'Governance',
+  [SupportedChainId.BSC]: {
+    [UNI_ADDRESS[SupportedChainId.BSC]]: 'UNI',
+    [TIMELOCK_ADDRESS[SupportedChainId.BSC]]: 'Timelock',
+    [GOVERNANCE_ALPHA_V0_ADDRESSES[SupportedChainId.BSC]]: 'Governance (V0)',
+    [GOVERNANCE_ALPHA_V1_ADDRESSES[SupportedChainId.BSC]]: 'Governance',
   },
 }
 
