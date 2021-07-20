@@ -255,7 +255,7 @@ export default function Header() {
 
   const scrollY = useScrollPosition()
 
-  const { infoLink } = CHAIN_INFO[chainId ? chainId : SupportedChainId.MAINNET]
+  const { infoLink } = CHAIN_INFO[chainId ? chainId : SupportedChainId.BSC]
   return (
     <HeaderFrame showBackground={scrollY > 45}>
       <ClaimModal />
@@ -284,7 +284,7 @@ export default function Header() {
         >
           <Trans>Pool</Trans>
         </StyledNavLink>
-        {chainId && chainId === SupportedChainId.MAINNET && (
+        {chainId && chainId === SupportedChainId.BSC && (
           <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
             <Trans>Vote</Trans>
           </StyledNavLink>

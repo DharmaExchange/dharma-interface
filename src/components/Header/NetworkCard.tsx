@@ -182,7 +182,7 @@ export default function NetworkCard() {
   }, [library, chainId])
 
   const info = chainId ? CHAIN_INFO[chainId] : undefined
-  if (!chainId || chainId === SupportedChainId.MAINNET || !info || !library) {
+  if (!chainId || chainId === SupportedChainId.BSC || !info || !library) {
     return null
   }
 
@@ -213,9 +213,9 @@ export default function NetworkCard() {
               <LinkOutCircle />
             </MenuItem>
             {implements3085 ? (
-              <ButtonMenuItem onClick={() => switchToNetwork({ library, chainId: SupportedChainId.MAINNET })}>
+              <ButtonMenuItem onClick={() => switchToNetwork({ library, chainId: SupportedChainId.BSC })}>
                 <div>
-                  <Trans>Switch to L1 (Mainnet)</Trans>
+                  <Trans>Switch to L1 (BSC)</Trans>
                 </div>
                 <ToggleLeft opacity={0.6} size={16} />
               </ButtonMenuItem>
