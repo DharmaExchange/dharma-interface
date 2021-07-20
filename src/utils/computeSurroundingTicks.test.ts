@@ -1,5 +1,5 @@
-import { FeeAmount, TICK_SPACINGS } from '@uniswap/v3-sdk'
-import { Token } from '@uniswap/sdk-core'
+import { FeeAmount, TICK_SPACINGS } from 'dharma-v3-sdk'
+import { Token } from 'dharma-sdk-core'
 import computeSurroundingTicks from './computeSurroundingTicks'
 import JSBI from 'jsbi'
 import { AllV3TicksQuery } from 'state/data/generated'

@@ -125,7 +125,7 @@ const ResponsiveColumn = styled(AutoColumn)`
 
 export default function CTACards() {
   const { chainId } = useActiveWeb3React()
-  const { infoLink } = CHAIN_INFO[chainId ? chainId : SupportedChainId.MAINNET]
+  const { infoLink } = CHAIN_INFO[chainId ? chainId : SupportedChainId.BSC]
   return (
     <div>
       <MinimalNetworkAlert />

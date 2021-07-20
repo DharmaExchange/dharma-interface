@@ -1,4 +1,4 @@
-import { Currency, Token } from '@uniswap/sdk-core'
+import { Currency, Token } from 'dharma-sdk-core'
 import { useMemo } from 'react'
 import { useUnsupportedTokens } from './Tokens'
 

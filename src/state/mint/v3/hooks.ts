@@ -13,8 +13,8 @@ import {
   TICK_SPACINGS,
   encodeSqrtRatioX96,
   nearestUsableTick,
-} from '@uniswap/v3-sdk/dist/'
-import { Currency, Token, CurrencyAmount, Price, Rounding } from '@uniswap/sdk-core'
+} from 'dharma-v3-sdk/dist/'
+import { Currency, Token, CurrencyAmount, Price, Rounding } from 'dharma-sdk-core'
 import { useCallback, useMemo } from 'react'
 import { useActiveWeb3React } from '../../../hooks/web3'
 import { AppState } from '../../index'

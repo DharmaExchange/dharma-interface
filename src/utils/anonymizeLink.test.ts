@@ -5,29 +5,29 @@ describe('#anonymizeLink', () => {
     expect(anonymizeLink('not a link')).toEqual('not a link')
   })
   it('anonymizes any addresses in etherscan urls', () => {
-    expect(anonymizeLink('https://etherscan.io/address/0xabcd')).toEqual('https://etherscan.io/address/***')
+    expect(anonymizeLink('https://bscscan.com/address/0xabcd')).toEqual('https://bscscan.com/address/***')
   })
   it('anonymizes any addresses in etherscan urls', () => {
-    expect(anonymizeLink('https://etherscan.io/address/0xabcd')).toEqual('https://etherscan.io/address/***')
+    expect(anonymizeLink('https://bscscan.com/address/0xabcd')).toEqual('https://bscscan.com/address/***')
   })
   it('anonymizes any addresses in testnet etherscan urls', () => {
-    expect(anonymizeLink('https://rinkeby.etherscan.io/address/0xabcd')).toEqual(
-      'https://rinkeby.etherscan.io/address/***'
+    expect(anonymizeLink('https://rinkeby.bscscan.com/address/0xabcd')).toEqual(
+      'https://rinkeby.bscscan.com/address/***'
     )
   })
   it('anonymizes any addresses in testnet etherscan urls', () => {
-    expect(anonymizeLink('https://ropsten.etherscan.io/address/0xabcd')).toEqual(
-      'https://ropsten.etherscan.io/address/***'
+    expect(anonymizeLink('https://ropsten.bscscan.com/address/0xabcd')).toEqual(
+      'https://ropsten.bscscan.com/address/***'
     )
   })
   it('anonymizes hashes in the middle of the url', () => {
-    expect(anonymizeLink('https://ropsten.etherscan.io/address/0xabcd/test')).toEqual(
-      'https://ropsten.etherscan.io/address/***/test'
+    expect(anonymizeLink('https://ropsten.bscscan.com/address/0xabcd/test')).toEqual(
+      'https://ropsten.bscscan.com/address/***/test'
     )
   })
   it('does not anonymize 0x', () => {
-    expect(anonymizeLink('https://ropsten.etherscan.io/address/0x/test')).toEqual(
-      'https://ropsten.etherscan.io/address/0x/test'
+    expect(anonymizeLink('https://ropsten.bscscan.com/address/0x/test')).toEqual(
+      'https://ropsten.bscscan.com/address/0x/test'
     )
   })
   it('works for arbitrum urls', () => {

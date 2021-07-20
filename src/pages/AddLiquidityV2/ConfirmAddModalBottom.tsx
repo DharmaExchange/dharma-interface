@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'dharma-sdk-core'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'
 import { RowBetween, RowFixed } from '../../components/Row'

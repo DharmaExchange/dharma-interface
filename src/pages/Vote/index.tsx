@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { CurrencyAmount, Token } from '@uniswap/sdk-core'
+import { CurrencyAmount, Token } from 'dharma-sdk-core'
 import ProposalEmptyState from 'components/vote/ProposalEmptyState'
 import JSBI from 'jsbi'
 import { darken } from 'polished'

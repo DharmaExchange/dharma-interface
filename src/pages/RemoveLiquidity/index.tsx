@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, Percent } from '@uniswap/sdk-core'
+import { Currency, Percent } from 'dharma-sdk-core'
 import { useCallback, useContext, useMemo, useState } from 'react'
 import { ArrowDown, Plus } from 'react-feather'
 import ReactGA from 'react-ga'

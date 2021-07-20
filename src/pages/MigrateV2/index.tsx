@@ -1,6 +1,6 @@
 import { ReactNode, useContext, useMemo } from 'react'
-import { Pair } from '@uniswap/v2-sdk'
-import { Token } from '@uniswap/sdk-core'
+import { Pair } from 'dharma-v2-sdk'
+import { Token } from 'dharma-sdk-core'
 import { ThemeContext } from 'styled-components/macro'
 import { AutoColumn } from '../../components/Column'
 import { AutoRow } from '../../components/Row'

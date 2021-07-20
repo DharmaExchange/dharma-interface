@@ -1,11 +1,11 @@
 const EXPLORER_HOSTNAMES: { [hostname: string]: true } = {
-  'etherscan.io': true,
-  'ropsten.etherscan.io': true,
-  'rinkeby.etherscan.io': true,
-  'kovan.etherscan.io': true,
-  'goerli.etherscan.io': true,
-  'optimistic.etherscan.io': true,
-  'kovan-optimistic.etherscan.io': true,
+  'bscscan.com': true,
+  'ropsten.bscscan.com': true,
+  'rinkeby.bscscan.com': true,
+  'kovan.bscscan.com': true,
+  'goerli.bscscan.com': true,
+  'optimistic.bscscan.com': true,
+  'kovan-optimistic.bscscan.com': true,
   'rinkeby-explorer.arbitrum.io': true,
   'explorer.arbitrum.io': true,
 }

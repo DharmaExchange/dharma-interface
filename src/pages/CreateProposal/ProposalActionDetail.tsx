@@ -3,7 +3,7 @@ import AddressInputPanel from 'components/AddressInputPanel'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
 import styled from 'styled-components/macro'
 import { ProposalAction } from './ProposalActionSelector'
-import { Currency } from '@uniswap/sdk-core'
+import { Currency } from 'dharma-sdk-core'
 import { Trans } from '@lingui/macro'
 
 enum ProposalActionDetailField {

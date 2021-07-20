@@ -6,6 +6,7 @@ import { SupportedChainId } from '../constants/chains'
  */
 export function supportedChainId(chainId: number): number | undefined {
   if (chainId in SupportedChainId) {
+    console.log(`Chain Id id ${chainId}`)
     return chainId
   }
   return undefined

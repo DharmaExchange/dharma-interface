@@ -9,7 +9,7 @@ import { AppState } from '../index'
 import { errorFetchingMulticallResults, fetchingMulticallResults, updateMulticallResults } from './actions'
 import { useAppDispatch, useAppSelector } from 'state/hooks'
 import { Call, parseCallKey } from './utils'
-import { UniswapInterfaceMulticall } from 'types/v3'
+import { UniswapInterfaceMulticall } from 'types/v3/UniswapInterfaceMulticall'
 
 const DEFAULT_GAS_REQUIRED = 1_000_000
 
@@ -25,6 +25,7 @@ async function fetchChunk(
   blockNumber: number
 ): Promise<{ success: boolean; returnData: string }[]> {
   console.debug('Fetching chunk', chunk, blockNumber)
+  console.dir({multicall})
   try {
     const { returnData } = await multicall.callStatic.multicall(
       chunk.map((obj) => ({

@@ -1,11 +1,7 @@
 import { SupportedChainId } from '../constants/chains'
 
 const ETHERSCAN_PREFIXES: { [chainId: number]: string } = {
-  [SupportedChainId.MAINNET]: '',
-  [SupportedChainId.ROPSTEN]: 'ropsten.',
-  [SupportedChainId.RINKEBY]: 'rinkeby.',
-  [SupportedChainId.GOERLI]: 'goerli.',
-  [SupportedChainId.KOVAN]: 'kovan.',
+  [SupportedChainId.BSC]: '',
   [SupportedChainId.OPTIMISM]: 'optimistic.',
   [SupportedChainId.OPTIMISTIC_KOVAN]: 'kovan-optimistic.',
 }
@@ -52,7 +48,7 @@ export function getExplorerLink(chainId: number, data: string, type: ExplorerDat
     }
   }
 
-  const prefix = `https://${ETHERSCAN_PREFIXES[chainId] ?? ''}etherscan.io`
+  const prefix = `https://${ETHERSCAN_PREFIXES[chainId] ?? ''}bscscan.com`
 
   switch (type) {
     case ExplorerDataType.TRANSACTION:

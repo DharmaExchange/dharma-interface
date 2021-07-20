@@ -1,6 +1,6 @@
-import { Currency, TradeType } from '@uniswap/sdk-core'
-import { Trade as V2Trade } from '@uniswap/v2-sdk'
-import { Trade as V3Trade } from '@uniswap/v3-sdk'
+import { Currency, TradeType } from 'dharma-sdk-core'
+import { Trade as V2Trade } from 'dharma-v2-sdk'
+import { Trade as V3Trade } from 'dharma-v3-sdk'
 import { Version } from '../hooks/useToggledVersion'
 
 export function getTradeVersion(

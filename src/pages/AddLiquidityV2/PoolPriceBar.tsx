@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@uniswap/sdk-core'
+import { Currency, Percent, Price } from 'dharma-sdk-core'
 import { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components/macro'
