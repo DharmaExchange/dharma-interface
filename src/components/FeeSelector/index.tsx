@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { FeeAmount } from '@uniswap/v3-sdk'
-import { Currency } from '@uniswap/sdk-core'
+import { FeeAmount } from 'dharma-v3-sdk'
+import { Currency } from 'dharma-sdk-core'
 import { Trans } from '@lingui/macro'
 import { AutoColumn } from 'components/Column'
 import { DynamicSection } from 'pages/AddLiquidity/styled'

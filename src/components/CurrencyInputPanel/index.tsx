@@ -1,5 +1,5 @@
-import { Pair } from '@uniswap/v2-sdk'
-import { Currency, CurrencyAmount, Percent, Token } from '@uniswap/sdk-core'
+import { Pair } from 'dharma-v2-sdk'
+import { Currency, CurrencyAmount, Percent, Token } from 'dharma-sdk-core'
 import { useState, useCallback, ReactNode } from 'react'
 import styled from 'styled-components/macro'
 import { darken } from 'polished'
