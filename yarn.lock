@@ -8444,19 +8444,7 @@ detect-port@^1.3.0:
     address "^1.0.1"
     debug "^2.6.0"
 
-dharma-sdk-core@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/dharma-sdk-core/-/dharma-sdk-core-0.0.1.tgz#e06188394288d6d99f915620712ca1a131cdbeba"
-  integrity sha512-pwoC9ShcrqExLdFmOjeCdGGll4IeP65U+GX3Ky7j7Qft6H75wUeCdMGBgpuMyou+WIrHHGyt0Am7hBy8KZImaw==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
-dharma-sdk-core@^0.0.3:
+dharma-sdk-core@0.0.3, dharma-sdk-core@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/dharma-sdk-core/-/dharma-sdk-core-0.0.3.tgz#8aa2008a0d43507289b31367a5837c5fc5d63f13"
   integrity sha512-wjf+Ccz2jUaIMSKGbM1sVbwK7E6QgMmdrx5nBuTIEkYk2ub/2JpGKP91MMT8vlYl+S9JLUSMdqIFGGH8dA91vQ==
@@ -8484,14 +8472,14 @@ dharma-v2-periphery@0.0.1:
     "@uniswap/lib" "4.0.1-alpha"
     dharma-v2-core "0.0.1"
 
-dharma-v2-sdk@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/dharma-v2-sdk/-/dharma-v2-sdk-0.0.1.tgz#7d8eaa82a1c3e80ded8f779eb66be1c41ed4bebe"
-  integrity sha512-ve3I1IcVJJ5wB+Z8a7mZn/nzx7+jgDkEUbGlSe4Wg91hKt9j+aZYeKjlQ9jzWTPbI4O5S9lMlIHZzrDPXVYQVQ==
+dharma-v2-sdk@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/dharma-v2-sdk/-/dharma-v2-sdk-0.0.2.tgz#fed6578b6b58ada76c7509af6c45a80ec3ceac8e"
+  integrity sha512-KoL2Qm7pnKan0y3DFKTw68jd0zNXW/7H9voZMTk9GMyldCst3bOpmPiW8XB9i/eeyHJ0M0wIb3ECl4Nv/5ZE1g==
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    dharma-sdk-core "0.0.1"
+    dharma-sdk-core "0.0.3"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 

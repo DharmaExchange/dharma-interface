@@ -63,7 +63,7 @@
     "d3": "^7.0.0",
     "dharma-v2-core": "0.0.1",
     "dharma-v2-periphery": "0.0.1",
-    "dharma-v2-sdk": "0.0.1",
+    "dharma-v2-sdk": "0.0.2",
     "dharma-v3-core": "0.0.1",
     "dharma-v3-periphery": "0.0.1",
     "dharma-v3-sdk": "0.0.3",
