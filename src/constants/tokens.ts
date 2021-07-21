@@ -16,13 +16,7 @@ export const DAI = new Token(
   'DAI',
   'Dai Stablecoin'
 )
-export const USDC = new Token(
-  SupportedChainId.BSC,
-  '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
-  6,
-  'USDC',
-  'USD//C'
-)
+export const USDC = new Token(SupportedChainId.BSC, '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', 6, 'USDC', 'USD//C')
 export const USDT = new Token(
   SupportedChainId.BSC,
   '0x55d398326f99059ff775485246999027b3197955',
@@ -48,11 +42,7 @@ export const renBTC = new Token(
 )
 
 export const UNI: { [chainId: number]: Token } = {
-  [SupportedChainId.BSC]: new Token(SupportedChainId.BSC, "0xbf5140a22578168fd562dccf235e5d43a02ce9b1", 18, 'UNI', 'Uniswap'),
-  //[SupportedChainId.RINKEBY]: new Token(SupportedChainId.RINKEBY, UNI_ADDRESS[4], 18, 'UNI', 'Uniswap'),
-  //[SupportedChainId.ROPSTEN]: new Token(SupportedChainId.ROPSTEN, UNI_ADDRESS[3], 18, 'UNI', 'Uniswap'),
-  //[SupportedChainId.GOERLI]: new Token(SupportedChainId.GOERLI, UNI_ADDRESS[5], 18, 'UNI', 'Uniswap'),
-  //[SupportedChainId.KOVAN]: new Token(SupportedChainId.KOVAN, UNI_ADDRESS[42], 18, 'UNI', 'Uniswap'),
+  [SupportedChainId.BSC]: new Token(SupportedChainId.BSC, UNI_ADDRESS[SupportedChainId.BSC], 18, 'UNI', 'Uniswap'),
 }
 
 export const WETH9_EXTENDED: { [chainId: number]: Token } = {
@@ -63,7 +53,7 @@ export const WETH9_EXTENDED: { [chainId: number]: Token } = {
     18,
     'WBNB',
     'Wrapped BNB'
-  ),  
+  ),
 }
 
 export class ExtendedEther extends Ether {
