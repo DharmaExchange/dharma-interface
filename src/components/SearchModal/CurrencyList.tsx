@@ -24,7 +24,7 @@ import QuestionHelper from 'components/QuestionHelper'
 import useTheme from 'hooks/useTheme'
 
 function currencyKey(currency: Currency): string {
-  return currency.isToken ? currency.address : 'ETHER'
+  return currency.isToken ? currency.address : 'BNB'
 }
 
 const StyledBalanceText = styled(Text)`
@@ -115,6 +115,7 @@ function CurrencyRow({
 }) {
   const { account } = useActiveWeb3React()
   const key = currencyKey(currency)
+  console.log({ key })
   const selectedTokenList = useCombinedActiveList()
   const isOnSelectedList = isTokenOnList(selectedTokenList, currency.isToken ? currency : undefined)
   const customAdded = useIsUserAddedToken(currency)

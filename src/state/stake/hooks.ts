@@ -25,19 +25,19 @@ export const STAKING_REWARDS_INFO: {
 } = {
   [1]: [
     {
-      tokens: [WETH9_EXTENDED[1], DAI],
+      tokens: [WETH9_EXTENDED[56], DAI],
       stakingRewardAddress: '0xa1484C3aa22a66C62b77E0AE78E15258bd0cB711',
     },
     {
-      tokens: [WETH9_EXTENDED[1], USDC],
+      tokens: [WETH9_EXTENDED[56], USDC],
       stakingRewardAddress: '0x7FBa4B8Dc5E7616e59622806932DBea72537A56b',
     },
     {
-      tokens: [WETH9_EXTENDED[1], USDT],
+      tokens: [WETH9_EXTENDED[56], USDT],
       stakingRewardAddress: '0x6C3e4cb2E96B01F4b866965A91ed4437839A121a',
     },
     {
-      tokens: [WETH9_EXTENDED[1], WBTC],
+      tokens: [WETH9_EXTENDED[56], WBTC],
       stakingRewardAddress: '0xCA35e32e7926b96A9988f61d510E038108d8068e',
     },
   ],
