@@ -131,6 +131,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 }
 export const PINNED_PAIRS: { readonly [chainId: number]: [Token, Token][] } = {
   [SupportedChainId.BSC]: [
+    /*
     [
       new Token(SupportedChainId.BSC, '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643', 8, 'cDAI', 'Compound Dai'),
       new Token(
@@ -141,6 +142,7 @@ export const PINNED_PAIRS: { readonly [chainId: number]: [Token, Token][] } = {
         'Compound USD Coin'
       ),
     ],
+    */
     [USDC, USDT],
     [DAI, USDT],
   ],
