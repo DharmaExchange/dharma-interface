@@ -31,8 +31,8 @@ import {
 } from 'constants/addresses'
 import { abi as NFTPositionManagerABI } from 'dharma-v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 import { useMemo } from 'react'
-import {  NonfungiblePositionManager } from 'types/v3/NonfungiblePositionManager'
-import {  UniswapInterfaceMulticall } from 'types/v3/UniswapInterfaceMulticall'
+import { NonfungiblePositionManager } from 'types/v3/NonfungiblePositionManager'
+import { UniswapInterfaceMulticall } from 'types/v3/UniswapInterfaceMulticall'
 import { Quoter } from 'types/v3/Quoter'
 
 import { V3Migrator } from 'types/v3/V3Migrator'
@@ -69,7 +69,6 @@ export function useV2MigratorContract() {
 }
 
 export function useTokenContract(tokenAddress?: string, withSignerIfPossible?: boolean) {
-  console.log(`Use token ${tokenAddress}`)
   return useContract<Erc20>(tokenAddress, ERC20_ABI, withSignerIfPossible)
 }
 
@@ -105,7 +104,6 @@ export function usePairContract(pairAddress?: string, withSignerIfPossible?: boo
 }
 
 export function useV2RouterContract(): Contract | null {
-  console.log({V2_ROUTER_ADDRESS})
   return useContract(V2_ROUTER_ADDRESS, IUniswapV2Router02ABI, true)
 }
 

@@ -132,9 +132,6 @@ export function useToken(tokenAddress?: string): Token | undefined | null {
   const address = isAddress(tokenAddress)
   const tokenContract = useTokenContract(address ? address : undefined, false)
 
-  console.log(`Getting token ${tokenAddress} on chain ${chainId} `)
-  console.dir(tokenContract)
-
   const tokenContractBytes32 = useBytes32TokenContract(address ? address : undefined, false)
   const token: Token | undefined = address ? tokens[address] : undefined
 

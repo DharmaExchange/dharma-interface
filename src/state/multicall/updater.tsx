@@ -25,7 +25,6 @@ async function fetchChunk(
   blockNumber: number
 ): Promise<{ success: boolean; returnData: string }[]> {
   console.debug('Fetching chunk', chunk, blockNumber)
-  console.dir({ multicall })
   try {
     const { returnData } = await multicall.callStatic.multicall(
       chunk.map((obj) => ({
