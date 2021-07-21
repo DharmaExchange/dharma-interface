@@ -7,12 +7,12 @@ msgstr ""
 "X-Generator: @lingui/cli\n"
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: uniswap-interface\n"
+"X-Crowdin-Project: dharma-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: en-US.po\n"
 "X-Crowdin-File-ID: 4\n"
-"Project-Id-Version: uniswap-interface\n"
+"Project-Id-Version: dharma-interface\n"
 "Language-Team: Ukrainian\n"
 "PO-Revision-Date: 2021-07-15 15:04\n"
 
@@ -217,8 +217,8 @@ msgid "Allow high price impact trades and skip the confirm screen. Use at your o
 msgstr "Дозвольте торгувати з високими цінами й пропустіть екран підтвердження. Приймайте це рішення на власний ризик."
 
 #: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "Дозвольте протоколу Uniswap використовувати ваш {0}"
+msgid "Allow the Dharma Protocol to use your {0}"
+msgstr "Дозвольте протоколу Dharma використовувати ваш {0}"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -229,8 +229,8 @@ msgid "Amount"
 msgstr "Сума"
 
 #: src/hooks/useSwapCallback.ts
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Під час спроби виконати цей обмін сталася помилка. Можливо, вам доведеться збільшити толерантність до ковзання. Якщо це не спрацює, можливо, існує несумісність з токеном, яким ви торгуєте. Примітка: плата за перенесення та перебазування токенів несумісні з Uniswap V3."
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Під час спроби виконати цей обмін сталася помилка. Можливо, вам доведеться збільшити толерантність до ковзання. Якщо це не спрацює, можливо, існує несумісність з токеном, яким ви торгуєте. Примітка: плата за перенесення та перебазування токенів несумісні з Dharma V3."
 
 #: src/components/Menu/index.tsx
 msgid "Analytics"
@@ -273,8 +273,8 @@ msgid "Are you sure?"
 msgstr "Ви впевнені?"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "As a member of the Uniswap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "Як учасник спільноти Uniswap ви можете стверджувати, що UNI слід використовувати для голосування й управління.<0/><1/><2>Прочитайте більше про UNI</2>"
+msgid "As a member of the Dharma community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
+msgstr "Як учасник спільноти Dharma ви можете стверджувати, що UNI слід використовувати для голосування й управління.<0/><1/><2>Прочитайте більше про UNI</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -328,8 +328,8 @@ msgid "By adding this list you are implicitly trusting that the data is correct.
 msgstr "Додаючи цей список, ви непрямо погоджуєтеся з тим, що дані правильні. Будь-хто може створити список, включаючи створення підроблених версій існуючих списків і списків, які нібито представляють проекти, які його не мають."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the <1>Uniswap protocol disclaimer</1>."
-msgstr "Підключаючи гаманець, ви погоджуєтесь із <0>Умовами користування</0> Uniswap Labs та підтверджуєте, що прочитали й розумієте <1>Застереження щодо протоколу Uniswap</1>."
+msgid "By connecting a wallet, you agree to Dharma Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the <1>Dharma protocol disclaimer</1>."
+msgstr "Підключаючи гаманець, ви погоджуєтесь із <0>Умовами користування</0> Dharma Labs та підтверджуєте, що прочитали й розумієте <1>Застереження щодо протоколу Dharma</1>."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -431,8 +431,8 @@ msgstr "Зібрати"
 
 #: src/pages/Pool/PositionPage.tsx
 #: src/pages/RemoveLiquidity/V3.tsx
-msgid "Collect as WETH"
-msgstr "Зібрати як WETH"
+msgid "Collect as WBNB"
+msgstr "Зібрати як WBNB"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Collect fees"
@@ -632,8 +632,8 @@ msgid "Deposit to {0}"
 msgstr "Депозит до {0}"
 
 #: src/pages/Earn/index.tsx
-msgid "Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token."
-msgstr "Вкладіть свої токени Провайдера ліквідності й отримайте UNI, токен управління протоколом Uniswap."
+msgid "Deposit your Liquidity Provider tokens to receive UNI, the Dharma protocol governance token."
+msgstr "Вкладіть свої токени Провайдера ліквідності й отримайте UNI, токен управління протоколом Dharma."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -684,8 +684,8 @@ msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "Не бачите жодної з ваших позицій v2? <0>Імпортуйте їх.</0>"
 
 #: src/components/vote/DelegateModal.tsx
-msgid "Earned UNI tokens represent voting shares in Uniswap governance."
-msgstr "Зароблені токени UNI представляють акції з правом голосу в управлінні Uniswap."
+msgid "Earned UNI tokens represent voting shares in Dharma governance."
+msgstr "Зароблені токени UNI представляють акції з правом голосу в управлінні Dharma."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -764,8 +764,8 @@ msgid "Expired"
 msgstr "Термін дії закінчився"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Explore popular pools on Uniswap Analytics."
-msgstr "Дослідіть популярні пули на Uniswap Analytics."
+msgid "Explore popular pools on Dharma Analytics."
+msgstr "Дослідіть популярні пули на Dharma Analytics."
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -780,8 +780,8 @@ msgid "For"
 msgstr "Для"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "Для кожного пула, показаного нижче, клацніть на перенесення, щоб видалити ліквідність з Uniswap V2 та внести її в Uniswap V3."
+msgid "For each pool shown below, click migrate to remove your liquidity from Dharma V2 and deposit it into Dharma V3."
+msgstr "Для кожного пула, показаного нижче, клацніть на перенесення, щоб видалити ліквідність з Dharma V2 та внести її в Dharma V3."
 
 #: src/components/swap/SwapModalHeader.tsx
 #: src/pages/Swap/index.tsx
@@ -1037,8 +1037,8 @@ msgid "Migrate V2 Liquidity"
 msgstr "Перенесення ліквідності V2"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "Перенесіть свої токени ліквідності з Uniswap V2 lj Uniswap V3."
+msgid "Migrate your liquidity tokens from Dharma V2 to Dharma V3."
+msgstr "Перенесіть свої токени ліквідності з Dharma V2 lj Dharma V3."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Migrating"
@@ -1143,8 +1143,8 @@ msgid "Optimism expects some scheduled downtime in the near future. <0>Read mor
 msgstr "Оптимізм очікує певного запланованого простою найближчим часом. <0> Детальніше.</0>"
 
 #: src/components/Header/NetworkCard.tsx
-msgid "Optimistic Etherscan"
-msgstr "Оптимістичний Etherscan"
+msgid "Optimistic Bscscan"
+msgstr "Оптимістичний Bscscan"
 
 #: src/components/Header/NetworkCard.tsx
 msgid "Optimistic L2 Gateway"
@@ -1184,12 +1184,12 @@ msgid "Please confirm you would like to remove this list by typing REMOVE"
 msgstr "Підтвердьте, що хочете видалити цей список, набравши ВИДАЛИТИ"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Please connect to Layer 1 Ethereum"
+msgid "Please connect to Layer 1 Binance Smart Chain"
 msgstr "Будь ласка, підключіться до рівня 1 Ефіріум"
 
 #: src/components/WalletModal/index.tsx
-msgid "Please connect to the appropriate Ethereum network."
-msgstr "Підключіться до відповідної мережі Ethereum."
+msgid "Please connect to the appropriate Binance Smart Chain network."
+msgstr "Підключіться до відповідної мережі Binance Smart Chain."
 
 #: src/components/Settings/index.tsx
 msgid "Please type the word \"{confirmWord}\" to enable expert mode."
@@ -1310,8 +1310,8 @@ msgid "Read more about UNI"
 msgstr "Дізнатися більше про UNI"
 
 #: src/pages/Vote/index.tsx
-msgid "Read more about Uniswap governance"
-msgstr "Докладніше про управління Uniswap"
+msgid "Read more about Dharma governance"
+msgstr "Докладніше про управління Dharma"
 
 #: src/pages/Pool/v2.tsx
 msgid "Read more about providing liquidity"
@@ -1514,16 +1514,16 @@ msgid "Switch to L1 (Mainnet)"
 msgstr "Переключитися на L1 (Mainnet)"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "Thanks for being part of the Uniswap community <0/>"
-msgstr "Дякуємо за участь у спільноті Uniswap <0/>"
+msgid "Thanks for being part of the Dharma community <0/>"
+msgstr "Дякуємо за участь у спільноті Dharma <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
 msgstr "%, Який ви заробите на гонорарах."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The Uniswap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "Інваріант Uniswap x * y = k не був задоволений в обміні. Зазвичай це означає, що один із токенів, який ви міняєте, включає спеціальну поведінку при передачі."
+msgid "The Dharma invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
+msgstr "Інваріант Dharma x * y = k не був задоволений в обміні. Зазвичай це означає, що один із токенів, який ви міняєте, включає спеціальну поведінку при передачі."
 
 #: src/hooks/useSwapCallback.ts
 msgid "The input token cannot be transferred. There may be an issue with the input token."
@@ -1538,8 +1538,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "Вихідний токен неможливо передати. Можливо, виникла проблема з вихідним токеном."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Вихідний токен результату неможливо передати. Можливо, виникла проблема з вихідним токеном результату. Зауважте: комісія за перенесення й перебазування токенів несумісна з Uniswap V3."
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Вихідний токен результату неможливо передати. Можливо, виникла проблема з вихідним токеном результату. Зауважте: комісія за перенесення й перебазування токенів несумісна з Dharma V3."
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1567,12 +1567,12 @@ msgstr "Ці токени зазвичай поєднані в пари з ін�
 
 #: src/components/NetworkAlert/AddLiquidityNetworkAlert.tsx
 #: src/components/NetworkAlert/MinimalNetworkAlert.tsx
-msgid "This is an alpha release of Uniswap on the {0} network."
-msgstr "Це альфа-версія Uniswap в мережі {0}"
+msgid "This is an alpha release of Dharma on the {0} network."
+msgstr "Це альфа-версія Dharma в мережі {0}"
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
-msgid "This is an alpha release of Uniswap on the {0} network. You must bridge L1 assets to the network to swap them."
-msgstr "Це альфа-версія Uniswap в мережі {0} Ви повинні підключити активи L1 до мережі, щоб їх обміняти."
+msgid "This is an alpha release of Dharma on the {0} network. You must bridge L1 assets to the network to swap them."
+msgstr "Це альфа-версія Dharma в мережі {0} Ви повинні підключити активи L1 до мережі, щоб їх обміняти."
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "This pool must be initialized before you can add liquidity. To initialize, select a starting price for the pool. Then, enter your liquidity price range and deposit amount. Gas fees will be higher than usual due to the initialization transaction."
@@ -1591,8 +1591,8 @@ msgid "This tool will safely migrate your {0} liquidity to V3. The process is co
 msgstr "Цей інструмент безпечно перенесе вашу ліквідність {0} до V3. Цей процес абсолютно не вимагає надійності завдяки"
 
 #: src/hooks/useSwapCallback.ts
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Ця операція не буде успішною через рух ціни. Спробуйте збільшити свою толерантність до проковзування. Зауважте: комісія за перенесення й перебазування токенів несумісна з Uniswap V3."
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Ця операція не буде успішною через рух ціни. Спробуйте збільшити свою толерантність до проковзування. Зауважте: комісія за перенесення й перебазування токенів несумісна з Dharma V3."
 
 #: src/hooks/useSwapCallback.ts
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1683,8 +1683,8 @@ msgid "UNI price:"
 msgstr "Ціна UNI:"
 
 #: src/pages/Vote/index.tsx
-msgid "UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "Токени UNI представляють акції з правом голосу в управлінні Uniswap. Ви можете проголосувати за кожну пропозицію самостійно або делегувати свої голоси третій стороні."
+msgid "UNI tokens represent voting shares in Dharma governance. You can vote on each proposal yourself or delegate your votes to a third party."
+msgstr "Токени UNI представляють акції з правом голосу в управлінні Dharma. Ви можете проголосувати за кожну пропозицію самостійно або делегувати свої голоси третій стороні."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1716,27 +1716,27 @@ msgid "Undetermined"
 msgstr "Невизначено"
 
 #: src/pages/Vote/index.tsx
-msgid "Uniswap Governance"
-msgstr "Управління Uniswap"
+msgid "Dharma Governance"
+msgstr "Управління Dharma"
 
 #: src/components/SwitchLocaleLink/index.tsx
-msgid "Uniswap available in: <0>{0}</0>"
-msgstr "Uniswap доступно в: <0>{0}</0>"
+msgid "Dharma available in: <0>{0}</0>"
+msgstr "Dharma доступно в: <0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Uniswap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
-msgstr "Універсальне управління доступне лише на рівні 1. Перейдіть до мережі Ethereum Mainnet, щоб переглянути пропозиції та проголосувати."
+msgid "Dharma governance is only available on Layer 1. Switch your network to Binance Smart Chain Mainnet to view Proposals and Vote."
+msgstr "Універсальне управління доступне лише на рівні 1. Перейдіть до мережі Binance Smart Chain Mainnet, щоб переглянути пропозиції та проголосувати."
 
 #: src/pages/Earn/index.tsx
-msgid "Uniswap liquidity mining"
-msgstr "Майнінг ліквідності Uniswap"
+msgid "Dharma liquidity mining"
+msgstr "Майнінг ліквідності Dharma"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "Uniswap migration contract↗"
-msgstr "Контракт Uniswap щодо перенесення↗"
+msgid "Dharma migration contract↗"
+msgstr "Контракт Dharma щодо перенесення↗"
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
-msgid "Uniswap on {0}"
+msgid "Dharma on {0}"
 msgstr "Відмінити на {0}"
 
 #: src/components/SearchModal/ImportToken.tsx
@@ -1744,8 +1744,8 @@ msgid "Unknown Source"
 msgstr "Невідоме джерело"
 
 #: src/hooks/useSwapCallback.ts
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Невідома помилка{0}. Спробуйте збільшити свою толерантність до проковзування. Зауважте: комісія за перенесення й перебазування токенів несумісна з Uniswap V3."
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Невідома помилка{0}. Спробуйте збільшити свою толерантність до проковзування. Зауважте: комісія за перенесення й перебазування токенів несумісна з Dharma V3."
 
 #: src/pages/Vote/VotePage.tsx
 #: src/pages/Vote/index.tsx
@@ -1791,7 +1791,7 @@ msgid "User"
 msgstr "Користувач"
 
 #: src/pages/Pool/v2.tsx
-msgid "V2 is not available on Layer 2. Switch to Layer 1 Ethereum."
+msgid "V2 is not available on Layer 2. Switch to Layer 1 Binance Smart Chain."
 msgstr "V2 недоступний на рівні 2. Перейдіть на рівень 1 Ефіріум."
 
 #: src/pages/Pool/index.tsx
@@ -1824,8 +1824,8 @@ msgid "View list"
 msgstr "Переглянути список"
 
 #: src/pages/CreateProposal/ProposalSubmissionModal.tsx
-msgid "View on Etherscan"
-msgstr "Переглянути на Etherscan"
+msgid "View on Bscscan"
+msgstr "Переглянути на Bscscan"
 
 #: src/components/AccountDetails/index.tsx
 #: src/components/AccountDetails/index.tsx
@@ -1938,8 +1938,8 @@ msgid "You are creating a pool"
 msgstr "Ви створюєте пул"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "Ви є першим постачальником ліквідності для цього пулу Uniswap V3. Ваша ліквідність перейде за поточною ціною {0}."
+msgid "You are the first liquidity provider for this Dharma V3 pool. Your liquidity will migrate at the current {0} price."
+msgstr "Ви є першим постачальником ліквідності для цього пулу Dharma V3. Ваша ліквідність перейде за поточною ціною {0}."
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -1971,16 +1971,16 @@ msgid "You must connect an account."
 msgstr "Ви маєте підключити обліковий запис."
 
 #: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "Ви маєте дати дозвіл розумних контрактів Uniswap на використання ваших {0}. Це потрібно зробити лише один раз на токен."
+msgid "You must give the Dharma smart contracts permission to use your {0}. You only have to do this once per token."
+msgstr "Ви маєте дати дозвіл розумних контрактів Dharma на використання ваших {0}. Це потрібно зробити лише один раз на токен."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
 msgstr "Щоб подати пропозицію, потрібно мати {formattedProposalThreshold}"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "Ви маєте вносити ліквідність у Uniswap V3 лише за ціною, яку ви вважаєте правильною. <0/> Якщо ціна здається неправильною, ви можете здійснити обмін, аби перемістити ціну, або дочекатися, поки цього зробить хтось інший."
+msgid "You should only deposit liquidity into Dharma V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "Ви маєте вносити ліквідність у Dharma V3 лише за ціною, яку ви вважаєте правильною. <0/> Якщо ціна здається неправильною, ви можете здійснити обмін, аби перемістити ціну, або дочекатися, поки цього зробить хтось інший."
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -2145,8 +2145,8 @@ msgstr "Внесено {0}"
 
 #: src/components/Header/index.tsx
 #: src/components/earn/PoolCard.tsx
-msgid "{0} ETH"
-msgstr "{0} ETH"
+msgid "{0} BNB"
+msgstr "{0} BNB"
 
 #: src/components/Header/NetworkCard.tsx
 msgid "{0} Explorer"

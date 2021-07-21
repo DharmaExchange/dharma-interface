@@ -7,12 +7,12 @@ msgstr ""
 "X-Generator: @lingui/cli\n"
 "Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: uniswap-interface\n"
+"X-Crowdin-Project: dharma-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: en-US.po\n"
 "X-Crowdin-File-ID: 4\n"
-"Project-Id-Version: uniswap-interface\n"
+"Project-Id-Version: dharma-interface\n"
 "Language-Team: Chinese Simplified\n"
 "PO-Revision-Date: 2021-07-19 13:09\n"
 
@@ -217,8 +217,8 @@ msgid "Allow high price impact trades and skip the confirm screen. Use at your o
 msgstr "允许高度影响价格的交易，并跳过确认步骤。须自行承担使用风险。"
 
 #: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "允许 Uniswap 调用您的 {0}"
+msgid "Allow the Dharma Protocol to use your {0}"
+msgstr "允许 Dharma 调用您的 {0}"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -229,8 +229,8 @@ msgid "Amount"
 msgstr "数额"
 
 #: src/hooks/useSwapCallback.ts
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "尝试执行此兑换时发生错误。您可能需要增加滑点限制。如果还是不行，则可能是您正在交易的代币与Uniswap不兼容。注：Uniswap V3不兼容转账时带扣除费用（fee-on-transfer）的代币和弹性供应（rebase）代币。"
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "尝试执行此兑换时发生错误。您可能需要增加滑点限制。如果还是不行，则可能是您正在交易的代币与Dharma不兼容。注：Dharma V3不兼容转账时带扣除费用（fee-on-transfer）的代币和弹性供应（rebase）代币。"
 
 #: src/components/Menu/index.tsx
 msgid "Analytics"
@@ -273,8 +273,8 @@ msgid "Are you sure?"
 msgstr "您确定吗？"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "As a member of the Uniswap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "作为Uniswap社区的成员，您可以认领 UNI 代币，用于投票和治理。<0/><1/><2>阅读更多关于 UNI 代币信息</2>"
+msgid "As a member of the Dharma community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
+msgstr "作为Dharma社区的成员，您可以认领 UNI 代币，用于投票和治理。<0/><1/><2>阅读更多关于 UNI 代币信息</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -328,8 +328,8 @@ msgid "By adding this list you are implicitly trusting that the data is correct.
 msgstr "添加此代币列表代表您信任其数据是正确的。任何人都可以创建代币列表，包括创建假冒实际列表的造假版本，以及自我声称代表了某项目的代币列表。"
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the <1>Uniswap protocol disclaimer</1>."
-msgstr "通过连接钱包，您同意接受 Uniswap 实验室的<0>服务条款</0>，并确认您已阅读和理解<1>Uniswap协议免责声明</1>。"
+msgid "By connecting a wallet, you agree to Dharma Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the <1>Dharma protocol disclaimer</1>."
+msgstr "通过连接钱包，您同意接受 Dharma 实验室的<0>服务条款</0>，并确认您已阅读和理解<1>Dharma协议免责声明</1>。"
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -431,8 +431,8 @@ msgstr "收取"
 
 #: src/pages/Pool/PositionPage.tsx
 #: src/pages/RemoveLiquidity/V3.tsx
-msgid "Collect as WETH"
-msgstr "以 WETH 方式收取"
+msgid "Collect as WBNB"
+msgstr "以 WBNB 方式收取"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Collect fees"
@@ -632,8 +632,8 @@ msgid "Deposit to {0}"
 msgstr "充入到 {0}"
 
 #: src/pages/Earn/index.tsx
-msgid "Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token."
-msgstr "充入您的流动池代币以领取 UNI（Uniswap 的治理代币）。"
+msgid "Deposit your Liquidity Provider tokens to receive UNI, the Dharma protocol governance token."
+msgstr "充入您的流动池代币以领取 UNI（Dharma 的治理代币）。"
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -684,8 +684,8 @@ msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "看不到您的一些 v2 流动资金吗？<0>将它手动导入。</0>"
 
 #: src/components/vote/DelegateModal.tsx
-msgid "Earned UNI tokens represent voting shares in Uniswap governance."
-msgstr "已赚取的 UNI 代币代表了 Uniswap 治理中的投票份额。"
+msgid "Earned UNI tokens represent voting shares in Dharma governance."
+msgstr "已赚取的 UNI 代币代表了 Dharma 治理中的投票份额。"
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -764,8 +764,8 @@ msgid "Expired"
 msgstr "已过期"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Explore popular pools on Uniswap Analytics."
-msgstr "在Uniswap分析中探索热门的流动池。"
+msgid "Explore popular pools on Dharma Analytics."
+msgstr "在Dharma分析中探索热门的流动池。"
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -780,8 +780,8 @@ msgid "For"
 msgstr "赞成"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "对于下面显示的每个流动池，单击“迁移”以从 Uniswap V2 赎回您的流动资金，并将其注入到 Uniswap V3。"
+msgid "For each pool shown below, click migrate to remove your liquidity from Dharma V2 and deposit it into Dharma V3."
+msgstr "对于下面显示的每个流动池，单击“迁移”以从 Dharma V2 赎回您的流动资金，并将其注入到 Dharma V3。"
 
 #: src/components/swap/SwapModalHeader.tsx
 #: src/pages/Swap/index.tsx
@@ -1037,8 +1037,8 @@ msgid "Migrate V2 Liquidity"
 msgstr "迁移V2 流动资金"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "将您的流动资金从 Uniswap V2 迁移到 Uniswap V3。"
+msgid "Migrate your liquidity tokens from Dharma V2 to Dharma V3."
+msgstr "将您的流动资金从 Dharma V2 迁移到 Dharma V3。"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Migrating"
@@ -1143,8 +1143,8 @@ msgid "Optimism expects some scheduled downtime in the near future. <0>Read mor
 msgstr "Optimism 近期将有一些预定的下线时间段。<0>阅读更多。</0>"
 
 #: src/components/Header/NetworkCard.tsx
-msgid "Optimistic Etherscan"
-msgstr "Optimistic Etherscan"
+msgid "Optimistic Bscscan"
+msgstr "Optimistic Bscscan"
 
 #: src/components/Header/NetworkCard.tsx
 msgid "Optimistic L2 Gateway"
@@ -1184,11 +1184,11 @@ msgid "Please confirm you would like to remove this list by typing REMOVE"
 msgstr "请输入 REMOVE 以确认您要删除此列表"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Please connect to Layer 1 Ethereum"
+msgid "Please connect to Layer 1 Binance Smart Chain"
 msgstr "请连接到以太坊 Layer 1"
 
 #: src/components/WalletModal/index.tsx
-msgid "Please connect to the appropriate Ethereum network."
+msgid "Please connect to the appropriate Binance Smart Chain network."
 msgstr "请连接到适当的以太坊网络。"
 
 #: src/components/Settings/index.tsx
@@ -1310,8 +1310,8 @@ msgid "Read more about UNI"
 msgstr "阅读更多关于 UNI 代币的信息"
 
 #: src/pages/Vote/index.tsx
-msgid "Read more about Uniswap governance"
-msgstr "阅读有关Uniswap治理的更多信息"
+msgid "Read more about Dharma governance"
+msgstr "阅读有关Dharma治理的更多信息"
 
 #: src/pages/Pool/v2.tsx
 msgid "Read more about providing liquidity"
@@ -1514,16 +1514,16 @@ msgid "Switch to L1 (Mainnet)"
 msgstr "切换到 L1 (主网)"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "Thanks for being part of the Uniswap community <0/>"
-msgstr "感谢您加入 Uniswap 社区 <0/>"
+msgid "Thanks for being part of the Dharma community <0/>"
+msgstr "感谢您加入 Dharma 社区 <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
 msgstr "您将赚取的手续费百分比。"
 
 #: src/hooks/useSwapCallback.ts
-msgid "The Uniswap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "兑换交易不满足 Uniswap 不变量 X × Y = K 的要求。这通常意味着您要兑换的代币之一在代币转账过程中带有一些自定义代币合约特性。"
+msgid "The Dharma invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
+msgstr "兑换交易不满足 Dharma 不变量 X × Y = K 的要求。这通常意味着您要兑换的代币之一在代币转账过程中带有一些自定义代币合约特性。"
 
 #: src/hooks/useSwapCallback.ts
 msgid "The input token cannot be transferred. There may be an issue with the input token."
@@ -1538,8 +1538,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "输出代币无法进行转账。输出代币可能有些问题。"
 
 #: src/hooks/useSwapCallback.ts
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "无法对输出代币进行转账。输出代币可能有些问题。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Uniswap V3不兼容。"
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "无法对输出代币进行转账。输出代币可能有些问题。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Dharma V3不兼容。"
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1567,12 +1567,12 @@ msgstr "这些代币通常与其他代币配对。"
 
 #: src/components/NetworkAlert/AddLiquidityNetworkAlert.tsx
 #: src/components/NetworkAlert/MinimalNetworkAlert.tsx
-msgid "This is an alpha release of Uniswap on the {0} network."
-msgstr "这是 Uniswap 在 {0} 网络上的 alpha 版本。"
+msgid "This is an alpha release of Dharma on the {0} network."
+msgstr "这是 Dharma 在 {0} 网络上的 alpha 版本。"
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
-msgid "This is an alpha release of Uniswap on the {0} network. You must bridge L1 assets to the network to swap them."
-msgstr "这是 Uniswap 在 {0} 网络上的 alpha 版本。您必须将 L1 资产桥接到网络后才能进行兑换。"
+msgid "This is an alpha release of Dharma on the {0} network. You must bridge L1 assets to the network to swap them."
+msgstr "这是 Dharma 在 {0} 网络上的 alpha 版本。您必须将 L1 资产桥接到网络后才能进行兑换。"
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "This pool must be initialized before you can add liquidity. To initialize, select a starting price for the pool. Then, enter your liquidity price range and deposit amount. Gas fees will be higher than usual due to the initialization transaction."
@@ -1591,8 +1591,8 @@ msgid "This tool will safely migrate your {0} liquidity to V3. The process is co
 msgstr "该工具将安全地将您的 {0} 流动资金迁移到 V3。该过程完全不依赖任何信任需求"
 
 #: src/hooks/useSwapCallback.ts
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "由于兑换率变动，此交易将不会成功。尝试增加您的滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Uniswap V3不兼容。"
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "由于兑换率变动，此交易将不会成功。尝试增加您的滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Dharma V3不兼容。"
 
 #: src/hooks/useSwapCallback.ts
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1683,8 +1683,8 @@ msgid "UNI price:"
 msgstr "UNI 代币兑换率："
 
 #: src/pages/Vote/index.tsx
-msgid "UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "UNI代币代表了Uniswap治理中的投票份额。您可以自行为提案进行投票，或将您的投票权委托给第三方。"
+msgid "UNI tokens represent voting shares in Dharma governance. You can vote on each proposal yourself or delegate your votes to a third party."
+msgstr "UNI代币代表了Dharma治理中的投票份额。您可以自行为提案进行投票，或将您的投票权委托给第三方。"
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1716,36 +1716,36 @@ msgid "Undetermined"
 msgstr "未定"
 
 #: src/pages/Vote/index.tsx
-msgid "Uniswap Governance"
-msgstr "Uniswap治理"
+msgid "Dharma Governance"
+msgstr "Dharma治理"
 
 #: src/components/SwitchLocaleLink/index.tsx
-msgid "Uniswap available in: <0>{0}</0>"
-msgstr "Uniswap可用：<0>{0}</0>"
+msgid "Dharma available in: <0>{0}</0>"
+msgstr "Dharma可用：<0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Uniswap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
-msgstr "Uniswap 治理仅在 Layer 1 可用。将您的网络切换到以太坊主网以查看提案和投票。"
+msgid "Dharma governance is only available on Layer 1. Switch your network to Binance Smart Chain Mainnet to view Proposals and Vote."
+msgstr "Dharma 治理仅在 Layer 1 可用。将您的网络切换到以太坊主网以查看提案和投票。"
 
 #: src/pages/Earn/index.tsx
-msgid "Uniswap liquidity mining"
-msgstr "Uniswap 流动资金挖矿："
+msgid "Dharma liquidity mining"
+msgstr "Dharma 流动资金挖矿："
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "Uniswap migration contract↗"
-msgstr "Uniswap 迁移合约↗"
+msgid "Dharma migration contract↗"
+msgstr "Dharma 迁移合约↗"
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
-msgid "Uniswap on {0}"
-msgstr "在 {0} 上的 Uniswap"
+msgid "Dharma on {0}"
+msgstr "在 {0} 上的 Dharma"
 
 #: src/components/SearchModal/ImportToken.tsx
 msgid "Unknown Source"
 msgstr "未知来源"
 
 #: src/hooks/useSwapCallback.ts
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "未知错误{0}。尝试增加您的滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Uniswap V3不兼容。"
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "未知错误{0}。尝试增加您的滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Dharma V3不兼容。"
 
 #: src/pages/Vote/VotePage.tsx
 #: src/pages/Vote/index.tsx
@@ -1791,7 +1791,7 @@ msgid "User"
 msgstr "用户"
 
 #: src/pages/Pool/v2.tsx
-msgid "V2 is not available on Layer 2. Switch to Layer 1 Ethereum."
+msgid "V2 is not available on Layer 2. Switch to Layer 1 Binance Smart Chain."
 msgstr "V2 在 Layer 2 不可用。切换到以太坊 Layer 1。"
 
 #: src/pages/Pool/index.tsx
@@ -1824,8 +1824,8 @@ msgid "View list"
 msgstr "查看代币列表"
 
 #: src/pages/CreateProposal/ProposalSubmissionModal.tsx
-msgid "View on Etherscan"
-msgstr "在 Etherscan 上查看"
+msgid "View on Bscscan"
+msgstr "在 Bscscan 上查看"
 
 #: src/components/AccountDetails/index.tsx
 #: src/components/AccountDetails/index.tsx
@@ -1938,8 +1938,8 @@ msgid "You are creating a pool"
 msgstr "您正在创建一个流动池"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "您是此 Uniswap V3 流动池的第一个流动资金提供者。您的流动资金将以当前的 {0} 兑换率迁移。"
+msgid "You are the first liquidity provider for this Dharma V3 pool. Your liquidity will migrate at the current {0} price."
+msgstr "您是此 Dharma V3 流动池的第一个流动资金提供者。您的流动资金将以当前的 {0} 兑换率迁移。"
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -1971,16 +1971,16 @@ msgid "You must connect an account."
 msgstr "您必须连接帐户。"
 
 #: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "您必须授予 Uniswap 智能合约使用您的 {0} 的权限。每个代币只需要授权一次。"
+msgid "You must give the Dharma smart contracts permission to use your {0}. You only have to do this once per token."
+msgstr "您必须授予 Dharma 智能合约使用您的 {0} 的权限。每个代币只需要授权一次。"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
 msgstr "您必须有 {formattedProposalThreshold} 票才能提交提案"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "请确保以您认为是正确的兑换率来将流动资金注入到 Uniswap V3。 <0/>如果兑换率看起来不正确，您可以进行兑换交易以移动兑换率，或者等待别人进行此操作。"
+msgid "You should only deposit liquidity into Dharma V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "请确保以您认为是正确的兑换率来将流动资金注入到 Dharma V3。 <0/>如果兑换率看起来不正确，您可以进行兑换交易以移动兑换率，或者等待别人进行此操作。"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -2145,8 +2145,8 @@ msgstr "注入 {0}"
 
 #: src/components/Header/index.tsx
 #: src/components/earn/PoolCard.tsx
-msgid "{0} ETH"
-msgstr "{0} ETH"
+msgid "{0} BNB"
+msgstr "{0} BNB"
 
 #: src/components/Header/NetworkCard.tsx
 msgid "{0} Explorer"

@@ -7,12 +7,12 @@ msgstr ""
 "X-Generator: @lingui/cli\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: uniswap-interface\n"
+"X-Crowdin-Project: dharma-interface\n"
 "X-Crowdin-Project-ID: 458284\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: en-US.po\n"
 "X-Crowdin-File-ID: 4\n"
-"Project-Id-Version: uniswap-interface\n"
+"Project-Id-Version: dharma-interface\n"
 "Language-Team: Hungarian\n"
 "PO-Revision-Date: 2021-07-15 15:04\n"
 
@@ -217,8 +217,8 @@ msgid "Allow high price impact trades and skip the confirm screen. Use at your o
 msgstr "Engedélyezze a magas árfolyamú kereskedéseket, és hagyja ki a megerősítő képernyőt. Használat csak saját felelősségre."
 
 #: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "Engedélyezze az Uniswap protokollnak a(z) {0} használatát"
+msgid "Allow the Dharma Protocol to use your {0}"
+msgstr "Engedélyezze az Dharma protokollnak a(z) {0} használatát"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -229,8 +229,8 @@ msgid "Amount"
 msgstr "Összeg"
 
 #: src/hooks/useSwapCallback.ts
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Hiba történt a csere végrehajtása során. Lehet, hogy növelnie kell a csúszási toleranciát. Ha ez nem működik, akkor összeférhetetlenség állhat fenn az Ön által forgalmazott tokennel. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Uniswap V3 verzióval."
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Hiba történt a csere végrehajtása során. Lehet, hogy növelnie kell a csúszási toleranciát. Ha ez nem működik, akkor összeférhetetlenség állhat fenn az Ön által forgalmazott tokennel. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Dharma V3 verzióval."
 
 #: src/components/Menu/index.tsx
 msgid "Analytics"
@@ -273,8 +273,8 @@ msgid "Are you sure?"
 msgstr "Biztos ebben?"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "As a member of the Uniswap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "Az Uniswap közösség tagjaként igényelheti az UNI-t, hogy szavazásra és kormányzásra használhassa.<0/><1/><2>Bővebben az UNI-ról</2>"
+msgid "As a member of the Dharma community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
+msgstr "Az Dharma közösség tagjaként igényelheti az UNI-t, hogy szavazásra és kormányzásra használhassa.<0/><1/><2>Bővebben az UNI-ról</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -328,8 +328,8 @@ msgid "By adding this list you are implicitly trusting that the data is correct.
 msgstr "A lista hozzáadásával hallgatólagosan megbízik az adatok helyességében. Bárki létrehozhat egy listát, beleértve a meglévő listák hamisított változatait is és olyan listákat is, amelyek azt állítják, hogy olyan projekteket képviselnek, amelyeknek nincs."
 
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the <1>Uniswap protocol disclaimer</1>."
-msgstr "A pénztárca csatlakoztatásával Ön elfogadja az Uniswap Labs <0>Szolgáltatási feltételeit</0> és elismeri, hogy elolvasta és megértette az <1>Uniswap protokoll lemondó nyilatkozatát</1>."
+msgid "By connecting a wallet, you agree to Dharma Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the <1>Dharma protocol disclaimer</1>."
+msgstr "A pénztárca csatlakoztatásával Ön elfogadja az Dharma Labs <0>Szolgáltatási feltételeit</0> és elismeri, hogy elolvasta és megértette az <1>Dharma protokoll lemondó nyilatkozatát</1>."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -431,8 +431,8 @@ msgstr "Begyűjtés"
 
 #: src/pages/Pool/PositionPage.tsx
 #: src/pages/RemoveLiquidity/V3.tsx
-msgid "Collect as WETH"
-msgstr "Begyűjtés WETH-ként"
+msgid "Collect as WBNB"
+msgstr "Begyűjtés WBNB-ként"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Collect fees"
@@ -632,8 +632,8 @@ msgid "Deposit to {0}"
 msgstr "Betét {0}"
 
 #: src/pages/Earn/index.tsx
-msgid "Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token."
-msgstr "Helyezze letétbe a likviditásszolgáltatói tokeneket, hogy megkapja az UNI-t, az Uniswap protokoll irányítási tokent."
+msgid "Deposit your Liquidity Provider tokens to receive UNI, the Dharma protocol governance token."
+msgstr "Helyezze letétbe a likviditásszolgáltatói tokeneket, hogy megkapja az UNI-t, az Dharma protokoll irányítási tokent."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -684,8 +684,8 @@ msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "Nem látja az egyik v2 pozícióját? <0> Importálja.</0>"
 
 #: src/components/vote/DelegateModal.tsx
-msgid "Earned UNI tokens represent voting shares in Uniswap governance."
-msgstr "A megszerzett UNI-tokenek a szavazati részesedéseket jelentik az Uniswap irányításában."
+msgid "Earned UNI tokens represent voting shares in Dharma governance."
+msgstr "A megszerzett UNI-tokenek a szavazati részesedéseket jelentik az Dharma irányításában."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -765,8 +765,8 @@ msgid "Expired"
 msgstr "Lejárt"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Explore popular pools on Uniswap Analytics."
-msgstr "Fedezze fel az Uniswap Analytics népszerű pooljait."
+msgid "Explore popular pools on Dharma Analytics."
+msgstr "Fedezze fel az Dharma Analytics népszerű pooljait."
 
 #: src/components/PositionPreview/index.tsx
 msgid "Fee Tier"
@@ -781,8 +781,8 @@ msgid "For"
 msgstr "Számára"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "Az alább látható egyes poolok esetében kattintson a migrálás gombra, hogy eltávolítsa a likviditását az Uniswap V2-ből, és letétbe helyezze az Uniswap V3-ban."
+msgid "For each pool shown below, click migrate to remove your liquidity from Dharma V2 and deposit it into Dharma V3."
+msgstr "Az alább látható egyes poolok esetében kattintson a migrálás gombra, hogy eltávolítsa a likviditását az Dharma V2-ből, és letétbe helyezze az Dharma V3-ban."
 
 #: src/components/swap/SwapModalHeader.tsx
 #: src/pages/Swap/index.tsx
@@ -1038,8 +1038,8 @@ msgid "Migrate V2 Liquidity"
 msgstr "V2 likviditás migrálása"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "Likviditási tokenek migrálása az Uniswap V2-ről az Uniswap V3-ra."
+msgid "Migrate your liquidity tokens from Dharma V2 to Dharma V3."
+msgstr "Likviditási tokenek migrálása az Dharma V2-ről az Dharma V3-ra."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Migrating"
@@ -1144,8 +1144,8 @@ msgid "Optimism expects some scheduled downtime in the near future. <0>Read mor
 msgstr "Az optimizmus a közeljövőben néhány tervezett leállásra számít. <0> További információ.</0>"
 
 #: src/components/Header/NetworkCard.tsx
-msgid "Optimistic Etherscan"
-msgstr "Optimista Etherscan"
+msgid "Optimistic Bscscan"
+msgstr "Optimista Bscscan"
 
 #: src/components/Header/NetworkCard.tsx
 msgid "Optimistic L2 Gateway"
@@ -1185,12 +1185,12 @@ msgid "Please confirm you would like to remove this list by typing REMOVE"
 msgstr "Kérjük, erősítse meg, hogy el szeretné távolítani ezt a listát, írja be a TÖRLÉS parancsot"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Please connect to Layer 1 Ethereum"
-msgstr "Kérjük, csatlakozzon az 1. réteg Ethereumhoz"
+msgid "Please connect to Layer 1 Binance Smart Chain"
+msgstr "Kérjük, csatlakozzon az 1. réteg Binance Smart Chainhoz"
 
 #: src/components/WalletModal/index.tsx
-msgid "Please connect to the appropriate Ethereum network."
-msgstr "Kérjük, csatlakozzon a megfelelő Ethereum hálózathoz."
+msgid "Please connect to the appropriate Binance Smart Chain network."
+msgstr "Kérjük, csatlakozzon a megfelelő Binance Smart Chain hálózathoz."
 
 #: src/components/Settings/index.tsx
 msgid "Please type the word \"{confirmWord}\" to enable expert mode."
@@ -1311,8 +1311,8 @@ msgid "Read more about UNI"
 msgstr "További információk az UNI-ról"
 
 #: src/pages/Vote/index.tsx
-msgid "Read more about Uniswap governance"
-msgstr "További információk az Uniswap irányításáról"
+msgid "Read more about Dharma governance"
+msgstr "További információk az Dharma irányításáról"
 
 #: src/pages/Pool/v2.tsx
 msgid "Read more about providing liquidity"
@@ -1515,16 +1515,16 @@ msgid "Switch to L1 (Mainnet)"
 msgstr "Váltás L1-re (Mainnet)"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "Thanks for being part of the Uniswap community <0/>"
-msgstr "Köszönjük, hogy az Uniswap közösség tagja <0/>"
+msgid "Thanks for being part of the Dharma community <0/>"
+msgstr "Köszönjük, hogy az Dharma közösség tagja <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
 msgstr "A díjakban keresett%."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The Uniswap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "A Uniswap invariáns x*y=k nem teljesült a swap során. Ez általában azt jelenti, hogy a cserélendő tokenek egyike egyéni viselkedést tartalmaz az átadáskor."
+msgid "The Dharma invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
+msgstr "A Dharma invariáns x*y=k nem teljesült a swap során. Ez általában azt jelenti, hogy a cserélendő tokenek egyike egyéni viselkedést tartalmaz az átadáskor."
 
 #: src/hooks/useSwapCallback.ts
 msgid "The input token cannot be transferred. There may be an issue with the input token."
@@ -1539,8 +1539,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "Az output token nem transzferálható. Probléma lehet az output tokennel."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "A kimeneti token nem vihető át. Probléma lehet a kimeneti tokennel. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Uniswap V3 verzióval."
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "A kimeneti token nem vihető át. Probléma lehet a kimeneti tokennel. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Dharma V3 verzióval."
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1568,12 +1568,12 @@ msgstr "Ezeket a tokeneket általában más tokenekkel párosítják."
 
 #: src/components/NetworkAlert/AddLiquidityNetworkAlert.tsx
 #: src/components/NetworkAlert/MinimalNetworkAlert.tsx
-msgid "This is an alpha release of Uniswap on the {0} network."
-msgstr "Ez az Uniswap alfa kiadása a {0} hálózaton."
+msgid "This is an alpha release of Dharma on the {0} network."
+msgstr "Ez az Dharma alfa kiadása a {0} hálózaton."
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
-msgid "This is an alpha release of Uniswap on the {0} network. You must bridge L1 assets to the network to swap them."
-msgstr "Ez az Uniswap alfa kiadása a {0} hálózaton. Az L1 eszközöket át kell kapcsolnia a hálózatra, hogy felcserélje őket."
+msgid "This is an alpha release of Dharma on the {0} network. You must bridge L1 assets to the network to swap them."
+msgstr "Ez az Dharma alfa kiadása a {0} hálózaton. Az L1 eszközöket át kell kapcsolnia a hálózatra, hogy felcserélje őket."
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "This pool must be initialized before you can add liquidity. To initialize, select a starting price for the pool. Then, enter your liquidity price range and deposit amount. Gas fees will be higher than usual due to the initialization transaction."
@@ -1592,8 +1592,8 @@ msgid "This tool will safely migrate your {0} liquidity to V3. The process is co
 msgstr "Ez az eszköz biztonságosan migrálja a {0} likviditását a V3-ba. A folyamat teljesen megbízhatatlan köszönhetően"
 
 #: src/hooks/useSwapCallback.ts
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Ez a tranzakció az ármozgás miatt nem fog sikerülni. Próbáld meg növelni a csúszástűrést. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Uniswap V3 verzióval."
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Ez a tranzakció az ármozgás miatt nem fog sikerülni. Próbáld meg növelni a csúszástűrést. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Dharma V3 verzióval."
 
 #: src/hooks/useSwapCallback.ts
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1684,8 +1684,8 @@ msgid "UNI price:"
 msgstr "UNI ár:"
 
 #: src/pages/Vote/index.tsx
-msgid "UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "Az UNI tokenek szavazati részvényeket képviselnek az Uniswap irányításában. Az egyes javaslatokról saját maga is szavazhat, vagy szavazatait átruházhatja egy harmadik félre."
+msgid "UNI tokens represent voting shares in Dharma governance. You can vote on each proposal yourself or delegate your votes to a third party."
+msgstr "Az UNI tokenek szavazati részvényeket képviselnek az Dharma irányításában. Az egyes javaslatokról saját maga is szavazhat, vagy szavazatait átruházhatja egy harmadik félre."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -1717,27 +1717,27 @@ msgid "Undetermined"
 msgstr "Meghatározatlan"
 
 #: src/pages/Vote/index.tsx
-msgid "Uniswap Governance"
-msgstr "Uniswap irányítás"
+msgid "Dharma Governance"
+msgstr "Dharma irányítás"
 
 #: src/components/SwitchLocaleLink/index.tsx
-msgid "Uniswap available in: <0>{0}</0>"
-msgstr "Az Uniswap itt érhető el: <0>{0}</0>"
+msgid "Dharma available in: <0>{0}</0>"
+msgstr "Az Dharma itt érhető el: <0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Uniswap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
-msgstr "Az uniswap irányítás csak az 1. rétegben érhető el. A javaslatok és a szavazatok megtekintéséhez kapcsolja hálózatát Ethereum Mainnet-re."
+msgid "Dharma governance is only available on Layer 1. Switch your network to Binance Smart Chain Mainnet to view Proposals and Vote."
+msgstr "Az dharma irányítás csak az 1. rétegben érhető el. A javaslatok és a szavazatok megtekintéséhez kapcsolja hálózatát Binance Smart Chain Mainnet-re."
 
 #: src/pages/Earn/index.tsx
-msgid "Uniswap liquidity mining"
-msgstr "Uniswap likviditásbányászat"
+msgid "Dharma liquidity mining"
+msgstr "Dharma likviditásbányászat"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "Uniswap migration contract↗"
-msgstr "Uniswap migrációs szerződés↗"
+msgid "Dharma migration contract↗"
+msgstr "Dharma migrációs szerződés↗"
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
-msgid "Uniswap on {0}"
+msgid "Dharma on {0}"
 msgstr "Lecserélés a {0}"
 
 #: src/components/SearchModal/ImportToken.tsx
@@ -1745,8 +1745,8 @@ msgid "Unknown Source"
 msgstr "Ismeretlen forrás"
 
 #: src/hooks/useSwapCallback.ts
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Ismeretlen hiba{0}. Próbáld meg növelni a csúszástűrést. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Uniswap V3 verzióval."
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Dharma V3."
+msgstr "Ismeretlen hiba{0}. Próbáld meg növelni a csúszástűrést. Megjegyzés: az átviteli és újrabázis tokenek díja nem kompatibilis az Dharma V3 verzióval."
 
 #: src/pages/Vote/VotePage.tsx
 #: src/pages/Vote/index.tsx
@@ -1792,8 +1792,8 @@ msgid "User"
 msgstr "Felhasználó"
 
 #: src/pages/Pool/v2.tsx
-msgid "V2 is not available on Layer 2. Switch to Layer 1 Ethereum."
-msgstr "A V2 nem érhető el a 2. rétegben. Váltás az 1. réteg Ethereumra."
+msgid "V2 is not available on Layer 2. Switch to Layer 1 Binance Smart Chain."
+msgstr "A V2 nem érhető el a 2. rétegben. Váltás az 1. réteg Binance Smart Chainra."
 
 #: src/pages/Pool/index.tsx
 msgid "V2 liquidity"
@@ -1825,8 +1825,8 @@ msgid "View list"
 msgstr "Lista megtekintése"
 
 #: src/pages/CreateProposal/ProposalSubmissionModal.tsx
-msgid "View on Etherscan"
-msgstr "Nézd meg az Etherscan webhelyen"
+msgid "View on Bscscan"
+msgstr "Nézd meg az Bscscan webhelyen"
 
 #: src/components/AccountDetails/index.tsx
 #: src/components/AccountDetails/index.tsx
@@ -1939,8 +1939,8 @@ msgid "You are creating a pool"
 msgstr "Poolt hoz létre"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "Ön az első likviditásszolgáltató ebben az Uniswap V3 poolban. Likviditása a jelenlegi {0} áron migrál."
+msgid "You are the first liquidity provider for this Dharma V3 pool. Your liquidity will migrate at the current {0} price."
+msgstr "Ön az első likviditásszolgáltató ebben az Dharma V3 poolban. Likviditása a jelenlegi {0} áron migrál."
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -1972,16 +1972,16 @@ msgid "You must connect an account."
 msgstr "Csatlakoznia kell egy fiókhoz."
 
 #: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "Engedélyt kell adnia az Uniswap intelligens szerződéseknek a(z) {0} használatához. Ezt tokenenként csak egyszer kell megtennie."
+msgid "You must give the Dharma smart contracts permission to use your {0}. You only have to do this once per token."
+msgstr "Engedélyt kell adnia az Dharma intelligens szerződéseknek a(z) {0} használatához. Ezt tokenenként csak egyszer kell megtennie."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
 msgstr "A javaslat benyújtásához {formattedProposalThreshold} szavazattal kell rendelkeznie"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "Csak olyan áron helyezhet el likviditást az Uniswap V3-ban, amelyet helyesnek tart. <0/>Ha az ár helytelennek tűnik, akkor vagy cserét hajt végre az ár elmozdítása érdekében, vagy megvárhatja, hogy valaki más megtegye ezt."
+msgid "You should only deposit liquidity into Dharma V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "Csak olyan áron helyezhet el likviditást az Dharma V3-ban, amelyet helyesnek tart. <0/>Ha az ár helytelennek tűnik, akkor vagy cserét hajt végre az ár elmozdítása érdekében, vagy megvárhatja, hogy valaki más megtegye ezt."
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -2146,8 +2146,8 @@ msgstr "{0} letétbe helyezve"
 
 #: src/components/Header/index.tsx
 #: src/components/earn/PoolCard.tsx
-msgid "{0} ETH"
-msgstr "{0} ETH"
+msgid "{0} BNB"
+msgstr "{0} BNB"
 
 #: src/components/Header/NetworkCard.tsx
 msgid "{0} Explorer"
