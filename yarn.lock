@@ -8456,18 +8456,6 @@ dharma-sdk-core@0.0.1, dharma-sdk-core@^0.0.1:
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-dharma-sdk-core@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/dharma-sdk-core/-/dharma-sdk-core-0.0.3.tgz#8aa2008a0d43507289b31367a5837c5fc5d63f13"
-  integrity sha512-wjf+Ccz2jUaIMSKGbM1sVbwK7E6QgMmdrx5nBuTIEkYk2ub/2JpGKP91MMT8vlYl+S9JLUSMdqIFGGH8dA91vQ==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
 dharma-v2-core@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/dharma-v2-core/-/dharma-v2-core-0.0.1.tgz#377ca2c27d2f303d707acc3f903a0b2c1700b9d8"
