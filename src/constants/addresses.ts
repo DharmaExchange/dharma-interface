@@ -1,4 +1,3 @@
-//import { FACTORY_ADDRESS as V2_FACTORY_ADDRESS } from 'dharma-v2-sdk'
 import { FACTORY_ADDRESS as V2_FACTORY_ADDRESS } from 'dharma-v2-sdk'
 import { FACTORY_ADDRESS as V3_FACTORY_ADDRESS } from 'dharma-v3-sdk'
 import { constructSameAddressMap } from '../utils/constructSameAddressMap'
