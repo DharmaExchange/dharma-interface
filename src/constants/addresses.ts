@@ -5,17 +5,13 @@ import { SupportedChainId } from './chains'
 
 type AddressMap = { [chainId: number]: string }
 
-const V2_FACTORY_ADDRESS = "0x6075F44F85E185291de927a0aB321f2663eEA68b";
+const V2_FACTORY_ADDRESS = '0x6075F44F85E185291de927a0aB321f2663eEA68b'
 
 export const UNI_ADDRESS: AddressMap = {
   [SupportedChainId.BSC]: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1',
 }
 export const MULTICALL_ADDRESS: AddressMap = {
-  /*...constructSameAddressMap('0x1F98415757620B543A52E61c46B32eB19261F984', [SupportedChainId.OPTIMISTIC_KOVAN]),
-  [SupportedChainId.OPTIMISM]: '0x90f872b3d8f33f305e0250db6A2761B354f7710A',
-  [SupportedChainId.ARBITRUM_ONE]: '0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB',
-  [SupportedChainId.ARBITRUM_RINKEBY]: '0xa501c031958F579dB7676fF1CE78AD305794d579',*/
-  [SupportedChainId.BSC]: '0xffBe6a2253e03a83D1ddE16e4F5f2F58184AbabB',
+  [SupportedChainId.BSC]: '0xF7bbE3359443565954b0daC61756931581F3699C',
 }
 export const V2_FACTORY_ADDRESSES: AddressMap = {
   [SupportedChainId.BSC]: V2_FACTORY_ADDRESS,
@@ -45,7 +41,7 @@ export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
   [SupportedChainId.BSC]: '0xeca4B0bDBf7c55E9b7925919d03CbF8Dc82537E8',
 }
 export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
-  [SupportedChainId.BSC]: V3_FACTORY_ADDRESS
+  [SupportedChainId.BSC]: V3_FACTORY_ADDRESS,
 }
 export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6', [
   SupportedChainId.OPTIMISM,
@@ -70,7 +66,7 @@ export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
 }
 export const SWAP_ROUTER_ADDRESSES: AddressMap = {
   [SupportedChainId.BSC]: '0x90B3c58eeF196c6647EEB5957c5Ad003d3A1B643',
-}/*constructSameAddressMap('0xE592427A0AEce92De3Edee1F18E0157C05861564', [
+} /*constructSameAddressMap('0xE592427A0AEce92De3Edee1F18E0157C05861564', [
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
   SupportedChainId.ARBITRUM_ONE,
