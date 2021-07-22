@@ -5,7 +5,7 @@ import { SupportedChainId } from './chains'
 
 type AddressMap = { [chainId: number]: string }
 
-export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0xbf5140a22578168fd562dccf235e5d43a02ce9b1')
+export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0x00000000000000000000000000000000deadbeef')
 export const MULTICALL_ADDRESS: AddressMap = {
   [SupportedChainId.BSC]: '0xF7bbE3359443565954b0daC61756931581F3699C',
 }
@@ -34,9 +34,9 @@ export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
   [SupportedChainId.BSC]: '0x00000000000000000000000000000000deadbeef',
 }
 export const V3_CORE_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V3_FACTORY_ADDRESS, [])
-export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0x00000000000000000000000000000000deadbeef', [])
+export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0x07124c7eda34cACAa94e6D0bbF4994E1E173383a', [])
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0x00000000000000000000000000000000deadbeef',
+  '0x98fBB93fEdA502d581EE8c9bEb927c37E440F956',
   []
 )
 export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
@@ -46,7 +46,7 @@ export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
   [SupportedChainId.BSC]: '0x00000000000000000000000000000000deadbeef',
 }
 export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0x90B3c58eeF196c6647EEB5957c5Ad003d3A1B643',
+  '0x809fE6B40242Ab006E34015ABce2561d36D82C57',
   []
 )
 export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap(
