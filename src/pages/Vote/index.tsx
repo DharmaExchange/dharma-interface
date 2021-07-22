@@ -135,7 +135,7 @@ export default function Vote() {
               <AutoColumn gap="md">
                 <RowBetween>
                   <TYPE.white fontWeight={600}>
-                    <Trans>Uniswap Governance</Trans>
+                    <Trans>Dharma Governance</Trans>
                   </TYPE.white>
                 </RowBetween>
                 <RowBetween>
